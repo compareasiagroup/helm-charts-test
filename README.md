@@ -9,7 +9,7 @@ Initial setup of gh-pages folder tracking remote branch:
 mkdir gh-pages
 cd gh-pages 
 git init 
-git remote add gh-pages git@github.com:compareasiagroup/helm-charts.git
+git remote add gh-pages git@github.com:compareasiagroup/helm-charts-test.git
 git pull gh-pages/gh-pages
 ```
 
