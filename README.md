@@ -18,7 +18,7 @@ Pushing a chart changes:
 $ helm package private-charts-repo/ -d gh-pages/
 Successfully packaged chart and saved it to: gh-pages/private-charts-repo-0.0.1.tgz
 
-$ helm repo index gh-pages --url https://compareasiagroup.github.io/helm-charts/
+$ helm repo index gh-pages --url https://compareasiagroup.github.io/helm-charts-test/
 
 $ cd gh-pages
 $ git add . && git commit -am"Publishing private-charts-repo-0.0.1"
