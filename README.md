@@ -10,7 +10,7 @@ mkdir gh-pages
 cd gh-pages 
 git init 
 git remote add gh-pages git@github.com:compareasiagroup/helm-charts-test.git
-git pull gh-pages/gh-pages
+git checkout --track gh-pages/gh-pages
 ```
 
 Pushing a chart changes:
