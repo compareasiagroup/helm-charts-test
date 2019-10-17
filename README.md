@@ -24,3 +24,9 @@ $ cd gh-pages
 $ git add . && git commit -am"Publishing private-charts-repo-0.0.1"
 $ git push -u gh-pages gh-pages
 ```
+
+Using these charts:
+```
+helm repo add cag-test https://compareasiagroup.github.io/helm-charts-test
+"cag-test" has been added to your repositories
+```
